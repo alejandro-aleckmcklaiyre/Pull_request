@@ -1,5 +1,7 @@
 #mainmenu
 
+from package import alejandro
+
 def main_menu():
     while True:
         print("\n---Main Menu ---")
@@ -14,6 +16,7 @@ def main_menu():
         
         if choice == '1':
             print("-----------------------------------")
+            alejandro.greetings()
 
         elif choice == '2':
             print("-----------------------------------")
